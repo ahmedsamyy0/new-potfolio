@@ -41,13 +41,13 @@ const Hero = () => {
           <p className="text-center md:tracking-wider text-sm mb-4 md:text-lg lg:text-2xl">
             Hi! I’m Ahmed Samy, a Frontend Developer based in Egypt.
           </p>
-          <Link href="/about">
+          <a href="#about">
             <MagicButton
               text="Show My Work"
               position="right"
               icon={<FaLocationArrow />}
             />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
