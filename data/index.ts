@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building Dark Atlas",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -205,13 +205,35 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://www.github.com/mrxxcoder",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://www.x.com/lowkeylu__",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ahmed-samy-a58302201",
+  },
+];
+
+export const timeline = [
+  {
+    id: 1,
+    company: "Faculty of Computer Science",
+    companyLink: "",
+    title: "Computer Science Student",
+    date: "2020 - 2024",
+    desc: "Spent 4 years studying various aspects of computer science, including algorithms, data structures, software engineering, and web development. Engaged in numerous projects and internships to gain practical experience.",
+  },
+  {
+    id: 3,
+    company: "BuguardLLC",
+    companyLink: "https://www.buguard.io",
+    title: "Frontend Engineer",
+    date: "Jan, 2024 - Present",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
   },
 ];
