@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 import animate from "tailwindcss-animate";
 import svgToDataUri from "mini-svg-data-uri";
+// @ts-expect-error tailwindcss is not typed
 import { default as defaultFlattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
 
 // Create a properly typed version of flattenColorPalette
@@ -168,6 +169,7 @@ const config = {
   plugins: [
     animate,
     addVariablesForColors,
+    // @ts-expect-error tailwindcss is not typed
     function ({ matchUtilities, theme }) {
       matchUtilities(
         {
